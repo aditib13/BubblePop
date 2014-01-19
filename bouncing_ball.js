@@ -66,7 +66,8 @@ $(document).ready(function () {
 	var levels = 0
 
 	$('.ball').on('click', function () {
-		
+		$(this).effect("explode");
+})
 
 		if (levels < 11) {
 
