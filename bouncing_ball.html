@@ -1,0 +1,56 @@
+ 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pop the Bubble!</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="bouncing_ball.css">
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="bouncing_ball.js"></script>
+  <link rel="shortcut icon" href="bubble.png"/>
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+    <div class='bar'>
+        <div class='ball'></div>
+    </div>                
+<body id="bouncing_ball">
+
+  <div id="container_main">
+    <div id="content_wrap">  <!-- Fixes container size issue to keep footer in place -->
+
+      
+        <div id="title">
+          <h1 class="wrapTxt">
+  Click to pop the bubble!
+  <span class="mask"></span>
+</h1>
+
+        </div>
+     
+
+      <div id="container_right">
+        <div id="message_container">
+          <h1 class="message" id="congrats">Good Job!</h1>
+          <h3 class="message" id="next_level">Next level: <span id="level">1</span></h3>
+          <a id="replay" href="bouncing_ball.html">Replay?</a>
+        </div>
+
+        <div id="ball_container">
+          <div id="ball"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  
+
+  <footer>
+    <div id="footer_links">
+    </div>
+  </footer>
+  
+</body>
+</html>
